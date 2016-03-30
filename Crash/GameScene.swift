@@ -14,7 +14,7 @@ class SomeClass{
     var closure:(()->())?
     init(){}
     func method(){}
-    deinit {print("SomeClass deinited")}
+    deinit {print("SomeClass deinited!")}
 }
 
 class GameScene: SKScene {
@@ -42,7 +42,7 @@ class GameScene: SKScene {
         }
     }
     
-    deinit {print("GameScene deinited")}
+    deinit {print("GameScene deinited!")}
     
     func method(){}
 }
